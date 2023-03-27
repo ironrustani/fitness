@@ -1,0 +1,237 @@
+{% extends 'base.html' %}
+{% block titulli %}{% endblock  %}
+{% block kontent %}
+
+
+
+<section>
+	<div class="container-fluid overflow-hidden p-0">
+		<div class="row g-0">
+			<div class="col-md-6 order-md-2">
+				<div class="card" lc-helper="video-bg">
+					<video class="min-vh-50 min-vh-lg-100" autoplay="" preload="" muted="" loop="" playsinline="" style="object-fit: cover; object-position: 50% 50%;" poster="https://lclibrary.b-cdn.net/wp-content/uploads/sites/15/2022/03/sea-poster.png">
+						<!-- adjust object-position to tweak cropping on mobile -->
+						<source src="https://cdn.livecanvas.com/media/videos/sea.mp4" type="video/mp4">
+					</video>
+				</div>
+			</div>
+			<div class="col-md-6 order-md-1 my-auto text-center p-3">
+				<div class="lc-block mb-4">
+					<div editable="rich">
+						<h1 class="fw-bold display-1">Hello Adventure!</h1>
+						<p class="lead">Lorem ipsum dolor sit amet, <strong>consectetur adipiscing</strong>
+							elit. <br>Nullam tincidunt enim ac augue suscipit rhoncus.<br><strong>Donec ante erat</strong>, hendrerit sed
+							eleifend et, dapibus at leo.<br>Mauris bibendum mi ut dui sagittis volutpat.</p>
+
+					</div>
+				</div>
+
+				<div class="lc-block">
+					<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+				</div><!-- /lc-block -->
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container-fluid">
+		<div class="row">
+			<div lc-helper="background" class="col-lg-6 min-vh-50" style="background-size: cover; background-position: center; background-image: url('https://images.unsplash.com/photo-1502680390469-be75c86b636f?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8N3x8b2NlYW4lMjBzdXJmfGVufDB8MHx8fDE2MzQ4MzM3MDU&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768');"></div>
+			<div class="col-lg-6 order-lg-1 my-auto p-3 p-lg-5">
+				<div class="lc-block">
+					<div editable="rich">
+						<h1 class="display-2 fw-bold">Your Title</h1>
+						<p class="lead">Lorem ipsum dolor sit amet Neque porro quisquam est qui dolorem Lorem int ipsum dolor sit amet when an unknown printer took a galley of type.&nbsp;</p>
+						<p class="lead">Vivamus id tempor felis. Cras sagittis mi sit amet malesuada mollis. Mauris porroinit consectetur cursus tortor vel interdum.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<!-- lc-needs-hard-refresh -->
+	<div class="container-fluid overflow-hidden p-0">
+		<div class="row g-0">
+			<div lc-helper="background" class="col-md-6 order-md-2 " style="min-height: 50vh; background-size: cover; background-position: center; background-image: url('https://images.unsplash.com/photo-1505228395891-9a51e7e86bf6?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NDB8fG9jZWFufGVufDB8MHx8fDE2MzQ4MzU0NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768');">
+
+			</div>
+			<div class="col-md-6 order-md-1 my-auto text-center" style="padding:10vw">
+				<div class="lc-block mb-4">
+					<h2 editable="inline" class="rfs-30">Opening soon</h2>
+					<p class="lead" id="demo">11606d 21h 50m 57s </p>
+				</div>
+				<div class="lc-block mb-3">
+					<a class="btn btn-primary btn-lg" href="#" role="button">Join Now</a>
+				</div>
+
+				<!-- /lc-block -->
+
+
+				<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Jan 5, 2055 15:37:25").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get todays date and time
+      var now = new Date().getTime();
+    
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+    
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+      // Display the result in the element with id="demo"
+      document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+    
+      // If the count down is finished, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+    </script>
+			</div>
+		</div>
+
+
+	</div>
+</section>
+<section style="background:url(https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8MTB8fGNhcnxlbnwwfDB8fHwxNjU0NjgxMDMx&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768)  center / cover no-repeat;" class="text-light bg-dark py-6">
+	<div class="container py-5 text-center">
+		<div class="row">
+			<div class="col-md-8 offset-md-2 px-4">
+				<div class="lc-block mb-4">
+					<div editable="rich">
+						<h2 class="display-2">No Fear</h2>
+					</div>
+				</div>
+				<div class="lc-block mb-4">
+					<div editable="rich">
+						<p>Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.&nbsp;</p>
+					</div>
+				</div>
+				<div class="lc-block">
+					<a class="btn btn-light" href="#" role="button">Click me, I'm a button</a>
+				</div>
+				<!-- /lc-block -->
+			</div><!-- /col -->
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container py-4">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="lc-block mb-4"><span editable="inline" class="small mt-4 d-block">LOREM IPSUM</span>
+					<h2 editable="inline" class="display-2 mb-0"><b class="rfs-50">Testimonial</b></h2>
+					<p editable="inline"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et metus id<br> ligula malesuada placerat sit amet quis enim.</p>
+				</div><!-- /lc-block -->
+			</div>
+		</div>
+
+		<div class="row mt-4">
+			<div class="col-md-8 offset-md-2">
+				<div class="lc-block">
+					<div id="testimonial-slider" class="carousel slide" data-bs-ride="carousel">
+
+						<!-- Indicators -->
+						<ul class="carousel-indicators">
+							<li data-bs-target="#testimonial-slider" data-bs-slide-to="0" class="active" aria-current="true"></li>
+							<li data-bs-target="#testimonial-slider" data-bs-slide-to="1" class=""></li>
+							<li data-bs-target="#testimonial-slider" data-bs-slide-to="2" class=""></li>
+						</ul>
+
+						<!-- The slideshow -->
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="https://images.unsplash.com/photo-1502680390469-be75c86b636f?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8MXx8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768" alt="Photo by Jeremy Bishop" srcset="https://images.unsplash.com/photo-1502680390469-be75c86b636f?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8MXx8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768 1080w, https://images.unsplash.com/photo-1502680390469-be75c86b636f??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8MXx8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=150 150w, https://images.unsplash.com/photo-1502680390469-be75c86b636f??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8MXx8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=300 300w, https://images.unsplash.com/photo-1502680390469-be75c86b636f??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8MXx8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=768 768w, https://images.unsplash.com/photo-1502680390469-be75c86b636f??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8MXx8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1024 1024w" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="768">
+								<div class="carousel-caption text-white">
+									<p editable="inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, suscipit non dapibus vitae, dignissim id quam. Donec eget nulla tellus.&nbsp;</p>
+									<h5 editable="inline"><strong>Eddie Valiant</strong></h5>
+									<small editable="inline" style="letter-spacing:1px">CEO of Acme Inc.&nbsp;</small>
+								</div>
+
+
+							</div>
+							<div class="carousel-item">
+								<img src="https://images.unsplash.com/photo-1526485856375-9110812fbf35?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NXx8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768" alt="Photo by Guy Kawasaki" srcset="https://images.unsplash.com/photo-1526485856375-9110812fbf35?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NXx8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768 1080w, https://images.unsplash.com/photo-1526485856375-9110812fbf35??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NXx8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=150 150w, https://images.unsplash.com/photo-1526485856375-9110812fbf35??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NXx8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=300 300w, https://images.unsplash.com/photo-1526485856375-9110812fbf35??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NXx8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=768 768w, https://images.unsplash.com/photo-1526485856375-9110812fbf35??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NXx8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1024 1024w" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="768">
+								<div class="carousel-caption text-white">
+									<p editable="inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, suscipit non dapibus vitae, dignissim id quam. Donec eget nulla tellus.&nbsp;</p>
+									<h5 editable="inline"><strong>Eddie Valiant</strong></h5>
+									<small editable="inline" style="letter-spacing:1px">CEO of Acme Inc.&nbsp;</small>
+								</div>
+
+
+							</div>
+							<div class="carousel-item">
+								<img src="https://images.unsplash.com/photo-1486432155089-343c871b640f?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8M3x8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768" alt="Photo by Alex Shutin" srcset="https://images.unsplash.com/photo-1486432155089-343c871b640f?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8M3x8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768 1080w, https://images.unsplash.com/photo-1486432155089-343c871b640f??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8M3x8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=150 150w, https://images.unsplash.com/photo-1486432155089-343c871b640f??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8M3x8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=300 300w, https://images.unsplash.com/photo-1486432155089-343c871b640f??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8M3x8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=768 768w, https://images.unsplash.com/photo-1486432155089-343c871b640f??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8M3x8c3VyZmVyfGVufDB8MHx8fDE2MzQ4MzU3NDI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1024 1024w" sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="768">
+								<div class="carousel-caption text-white">
+									<p editable="inline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo nulla, suscipit non dapibus vitae, dignissim id quam. Donec eget nulla tellus.&nbsp;</p>
+									<h5 editable="inline"><strong>Eddie Valiant</strong></h5>
+									<small editable="inline" style="letter-spacing:1px">CEO of Acme Inc.&nbsp;</small>
+								</div>
+
+
+							</div>
+
+						</div>
+
+						<!-- Left and right controls -->
+						<a class="carousel-control-prev" href="#testimonial-slider" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						</a>
+						<a class="carousel-control-next" href="#testimonial-slider" data-bs-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						</a>
+
+					</div>
+				</div>
+			</div><!-- /col -->
+		</div>
+	</div>
+</section>
+<section class="py-md-6">
+	<div class="container py-5 text-center">
+		<div class="row">
+			<div class="col-md-8 offset-md-2 px-4">
+				<div class="lc-block mb-4">
+					<div editable="rich">
+						<h2>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</h2>
+						<h2>Vestibulum tortor.</h2>
+					</div>
+				</div>
+				<div class="lc-block mb-4">
+					<div editable="rich">
+						<p>Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.&nbsp;</p>
+						<p>Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat.&nbsp;</p>
+					</div>
+				</div>
+
+				<!-- /lc-block -->
+			</div><!-- /col -->
+		</div>
+	</div>
+</section>
+<section>
+	<div class="d-flex text-center min-vh-50" lc-helper="background" style=" background-attachment: fixed; background-size:cover; background-position: center center;background-color:#eee;background-image: url(https://images.unsplash.com/photo-1470214304380-aadaedcfff84?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NTJ8fG9jZWFuJTIwc3VyZnxlbnwwfDB8fHwxNjM0ODM1Mjkx&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1080&amp;h=768);">
+		<div class="lc-block  my-3 align-self-center w-100 py-5">
+			<div editable="rich">
+				<h2 class="display-4 text-white">This could be your</h2>
+				<h2 class="display-4 text-white">call to action</h2>
+				<p class="text-white">Lorem int ipsum dolor sit amet when an<br>&nbsp;unknown printer took a galley of type.</p>
+				<p class="text-white">Vivamus id tempor.</p>
+			</div>
+			<a class="btn btn-lg btn-light" href="#" role="button">Click me, I'm a button</a>
+		</div>
+	</div>
+</section>
+
+{% endblock  %}

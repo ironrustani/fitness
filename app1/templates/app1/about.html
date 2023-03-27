@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+{% block titulli %}{% endblock  %}
+{% block kontent %}
+
+<section>
+	<div class="py-6 container-fluid px-xxl-8">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="lc-block mb-4 mb-lg-0 lh-lg">
+					<div editable="rich">
+						<h1 class="display-5">Hi, I’m Cathy Mary</h1>
+						<p><br></p>
+
+
+						<p class="rfs-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus ullamcorper sapien, in lacinia purus luctus vel. In vel tristique risus. Aenean ac felis vitae leo malesuada porta. Morbi ac tincidunt nisl. Morbi semper, sem non finibus pellentesque, ipsum mauris varius neque, in semper tortor orci sed ex. </p>
+
+						<p class="rfs-7">Donec ut suscipit est, ut facilisis mauris. Nunc faucibus nec dolor nec interdum. Fusce ac felis luctus, pharetra turpis eu, ullamcorper enim. Praesent at est enim. Cras sit amet mi feugiat, dictum tellus vel, tristique neque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam vehicula tincidunt mauris et interdum. </p>
+
+						<p class="rfs-7">Sed non rhoncus dolor. Aenean posuere vitae quam ac maximus. Suspendisse vel egestas mauris. Suspendisse sit amet massa nunc. In hendrerit ipsum eros, sit amet venenatis neque fringilla ut. Ut ut tortor vestibulum, elementum sem sed, pulvinar sapien. Nullam finibus justo vitae malesuada porttitor. Nulla finibus risus mi, a ornare massa elementum sed. Duis quis accumsan nibh, sit amet cursus augue. Aenean nisi eros, convallis sit amet vestibulum vel, elementum pulvinar ipsum.</p>
+					</div>
+				</div><!-- /lc-block -->
+			</div><!-- /col -->
+			<div class=" col-lg-4 offset-lg-2 text-end">
+				<img class="img-fluid h-100" style="object-fit:cover;" src="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NjR8fHdvbWFufGVufDB8MXx8fDE2NDY4MjQ0MTI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1200" srcset="https://images.unsplash.com/photo-1551836022-deb4988cc6c0?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NjR8fHdvbWFufGVufDB8MXx8fDE2NDY4MjQ0MTI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1200 1200w, https://images.unsplash.com/photo-1551836022-deb4988cc6c0??crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NjR8fHdvbWFufGVufDB8MXx8fDE2NDY4MjQ0MTI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=150 150w, https://images.unsplash.com/photo-1551836022-deb4988cc6c0??crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NjR8fHdvbWFufGVufDB8MXx8fDE2NDY4MjQ0MTI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=300 300w, https://images.unsplash.com/photo-1551836022-deb4988cc6c0??crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NjR8fHdvbWFufGVufDB8MXx8fDE2NDY4MjQ0MTI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=768 768w, https://images.unsplash.com/photo-1551836022-deb4988cc6c0??crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=MnwzNzg0fDB8MXxzZWFyY2h8NjR8fHdvbWFufGVufDB8MXx8fDE2NDY4MjQ0MTI&amp;ixlib=rb-1.2.1&amp;q=80&amp;w=1024 1024w" sizes="(max-width: 1200px) 100vw, 1200px" width="1200" height="" alt="Photo by Amy Hirschi">
+			</div><!-- /col -->
+		</div>
+	</div>
+</section>
+<section class="bg-light py-5"><style>
+
+.mypath {
+  width: 300px; 
+   --mypath-radius: 31px; 
+   --mypath-border: 2px dashed;
+}
+
+.mypath > div {
+
+  border-top: var(--mypath-border);
+  border-color: #777 !important;
+  margin:0; 
+  padding: var(--mypath-radius);
+}
+
+.mypath > div:nth-child(even) {
+  border-left: var(--mypath-border);
+  border-top-left-radius: var(--mypath-radius);
+  border-bottom-left-radius: var(--mypath-radius);
+  margin-right: var(--mypath-radius); 
+  padding-right: 0;
+}
+
+.mypath > div:nth-child(odd) {
+  border-right: var(--mypath-border);
+  border-top-right-radius: var(--mypath-radius);
+  border-bottom-right-radius: var(--mypath-radius);
+  margin-left: var(--mypath-radius); 
+  padding-left: 0;
+}
+
+.mypath > div:first-child {
+  border-top: 0;
+  border-top-right-radius:0;
+  border-top-left-radius:0;
+}
+
+.mypath > div:last-child {
+  border-bottom-right-radius:0;
+  border-bottom-left-radius:0;
+}
+</style>
+
+	<div class="mypath mx-auto">
+		<div class="lc-block">
+			<div editable="rich">
+
+				<h2>The quick brown fox</h2>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lacus est. Etiam diam metus, lobortis non augue at, placerat viverra risus. Cras ornare faucibus laoreet&nbsp;</p>
+			</div>
+		</div>
+		<div class="lc-block">
+			<div editable="rich">
+
+				<h2>The quick brown fox</h2>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lacus est. Etiam diam metus, lobortis non augue at, placerat viverra risus. Cras ornare faucibus laoreet&nbsp;</p>
+			</div>
+		</div>
+		<div class="lc-block">
+			<div editable="rich">
+
+				<h2>The quick brown fox</h2>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lacus est. Etiam diam metus, lobortis non augue at, placerat viverra risus. Cras ornare faucibus laoreet&nbsp;</p>
+			</div>
+		</div>
+		<div class="lc-block">
+			<div editable="rich">
+
+				<h2>The quick brown fox</h2>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lacus est. Etiam diam metus, lobortis non augue at, placerat viverra risus. Cras ornare faucibus laoreet&nbsp;</p>
+			</div>
+		</div>
+		<div class="lc-block">
+			<div editable="rich">
+
+				<h2>The quick brown fox</h2>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lacus est. Etiam diam metus, lobortis non augue at, placerat viverra risus. Cras ornare faucibus laoreet&nbsp;</p>
+			</div>
+		</div>
+
+
+
+	</div>
+</section>
+
+
+{% endblock  %}
