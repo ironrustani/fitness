@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block titulli %}{% endblock  %}
+{% block kontent %}
+
+
+<div class="container">
+	<div class="row py-5">
+		<div class="col-lg-1 d-none d-lg-flex align-items-center">
+			<div class="lc-block d-flex" style="writing-mode: vertical-rl; transform:rotate(180deg)">
+				<a class="btn btn-link my-4 text-dark text-decoration-none" href="#" role="button">NUTRITION</a>
+				<a class="btn btn-link my-2 text-dark text-decoration-none" href="#" role="button">COACHING</a>
+			</div><!-- /lc-block -->
+		</div><!-- /col -->
+		<div class="col-sm-6 d-flex d-lg-none flex-sm-column align-items-center justify-content-around mb-4 mb-sm-0">
+			<div class="lc-block">
+				<a class="btn btn-link text-dark text-decoration-none" href="#" role="button">Facebook</a>
+
+			</div>
+			<div class="lc-block">
+				<a class="btn btn-link text-dark text-decoration-none" href="#" role="button">Twitter</a>
+
+			</div>
+			<div class="lc-block">
+				<a class="btn btn-link text-dark text-decoration-none" href="#" role="button">Youtube</a>
+
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="lc-block ratio ratio-1x1">
+				<img style="object-fit:cover" class="img-fluid" src="https://www.nestacertified.com/wp-content/uploads/2022/10/FNC-4.jpg" alt="Photo by Atikh Bana">
+			</div><!-- /lc-block -->
+		</div><!-- /col -->
+		<div class="col-lg-4 offset-lg-1">
+			<div class="lc-block my-5">
+				<div editable="rich">
+					<h2 class="rfs-25">NUTRITION COACHING</h2>
+				</div>
+			</div>
+			<div class="lc-block my-5">
+				<div editable="rich">
+                    <p class="lead"><strong>Cfar eshte?</strong></p>
+					<p>Projekti ynë 6-javor i trajnimit të të ushqyerit është ideal nëse jeni të lodhur nga dietat ekstreme dëshironi të merrni më në fund kontrollin e shëndetit dhe fizikut tuaj.</p>
+                    <p class="lead"><strong>Cfar Perfshin?</strong></p>
+                    <p><strong>Udhërrëfyesi juaj i transformimit të të ushqyerit -</strong>ku ju dhe trajneri juaj do të punoni së bashku për të zbërthyer qëllimet tuaja afatgjata në objektiva hap pas hapi, kështu që ka një vizion dhe rrugë të qartë drejt fizikut tuaj ideal.</p>
+                    <p><strong>Auditimi i stilit tuaj të jetesës</strong>ju dhe trajneri juaj do të shikoni veset dhe zakonet tuaja aktuale për të përcaktuar në mënyrë efektive se cilat po ju afrojnë më shumë me qëllimet tuaja dhe cilat po ju.</p>
+                    <p><strong>Trajner gjithmone i disponueshem-</strong>Trajneri juaj është i disponueshëm për këshilla dhe ndihmë përmes emailit ndërmjet seancave ballë për ballë, së bashku duke ju dhënë mjete dhe truket për t'i përdorur në jetën e përditshme për të krijuar një qasje të shëndetshme dhe të ekuilibruar për "dietën" dhe të ushqyerit.</p>
+                    <p></p>
+				</div>
+			</div><!-- /lc-block -->
+			<div class="lc-block">
+				<a class="btn btn-primary btn-lg" href="{% url 'contact' %}" role="button">Na kontaktoni</a>
+			</div><!-- /lc-block -->
+		</div><!-- /col -->
+	</div>
+</div>
+
+{% endblock  %}

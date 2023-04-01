@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block titulli %}{{blog.kategori.name}}{% endblock  %}
+{% block kontent %}
+
+
+<div class="container">
+	<div class="row">
+		<div lc-helper="background" class="col-lg-6 order-lg-2" style="min-height: 45vh; background-size: cover; background-position: center; background-image: url({{blog.imazhi.url}});"></div>
+		<div class="col-lg-6 order-lg-1 my-auto p-5">
+			<div class="lc-block">
+				<div editable="rich">
+					<h1>-{{blog.titulli}}-</h1>
+					<p class="lead">{{blog.pershkrimi}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock  %}

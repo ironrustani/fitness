@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block titulli %}{% endblock  %}
+{% block kontent %}
+
+
+<div class="container">
+	<div class="row py-5">
+		<div class="col-lg-1 d-none d-lg-flex align-items-center">
+			<div class="lc-block d-flex" style="writing-mode: vertical-rl; transform:rotate(180deg)">
+				<a class="btn btn-link my-2 text-dark text-decoration-none" href="#" role="button">1:1</a>
+				<a class="btn btn-link my-4 text-dark text-decoration-none" href="#" role="button">PERSONAL</a>
+				<a class="btn btn-link my-2 text-dark text-decoration-none" href="#" role="button">TRAINER</a>
+			</div><!-- /lc-block -->
+		</div><!-- /col -->
+		<div class="col-sm-6 d-flex d-lg-none flex-sm-column align-items-center justify-content-around mb-4 mb-sm-0">
+			<div class="lc-block">
+				<a class="btn btn-link text-dark text-decoration-none" href="#" role="button">Facebook</a>
+
+			</div>
+			<div class="lc-block">
+				<a class="btn btn-link text-dark text-decoration-none" href="#" role="button">Twitter</a>
+
+			</div>
+			<div class="lc-block">
+				<a class="btn btn-link text-dark text-decoration-none" href="#" role="button">Youtube</a>
+
+			</div>
+		</div>
+		<div class="col-lg-4 col-sm-6">
+			<div class="lc-block ratio ratio-1x1">
+				<img style="object-fit:cover" class="img-fluid" src="https://www.hfe.co.uk/wp-content/uploads/2022/06/Hero_Banner_PT_M-min-1-matt-1-768x796.jpeg" alt="Photo by Atikh Bana">
+			</div><!-- /lc-block -->
+		</div><!-- /col -->
+		<div class="col-lg-4 offset-lg-1">
+			<div class="lc-block my-5">
+				<div editable="rich">
+					<h2 class="rfs-25">1:1 PERSONAL TRAINER</h2>
+				</div>
+			</div>
+			<div class="lc-block my-5">
+				<div editable="rich">
+                    <p class="lead"><strong>Cfar eshte?</strong></p>
+					<p>Trajnimi personal është një zgjedhje ideale per klientet qe ndihen gati të investojnë në veten e tyre për rezultate sa më të shpejta dhe më efektive të mundshme.</p>
+                    <p class="lead"><strong>Cfar perfshin?</strong></p>
+                    <p><strong>Trajnim personal i pakrahasueshëm një me një</strong> në objektin tonë privat të stërvitjes, kater ose më shumë herë në javë - ku përparimi juaj është prioriteti ynë numër një në një mjedis që lejon që i gjithë fokusi të jetë tek ju (pa pritje për makineri, ose ndjenjë e stërmbushjes në një palestër e madhe, jopersonale).</P>
+                    <p><strong>Dietat ushqimore</strong> ne baze te gjendjes trupore te klienteve te cilat na lehtesojne proceset tona drejt rrezulatit te deshiruar. </p>
+                    <p><strong>Ekzaminim te klienteve</strong> çdo 6-8 javë për të rishikuar saktësisht se sa kemi arritur te permbushim qellimet tona  në mënyrë që të mund t'ju mbajmë 100% në rrugën e duhur drejt realizimit te qellimit.</p>
+				</div>
+			</div><!-- /lc-block -->
+			<div class="lc-block">
+				<a class="btn btn-primary btn-lg" href="{% url 'contact' %}" role="button">Na kontaktoni</a>
+			</div><!-- /lc-block -->
+		</div><!-- /col -->
+	</div>
+</div>
+
+{% endblock  %}

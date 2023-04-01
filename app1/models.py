@@ -14,7 +14,8 @@ class Postimi(models.Model):
     titulli = models.CharField(max_length=150, null=False)
     pershkrimi = models.TextField(max_length=500, null=False)
     imazhi = models.ImageField(upload_to='postimet',null=True)
-    slug = models.SlugField()
+    index = models.IntegerField(null=False,default=0)
+    slug = models.SlugField(blank=True)
 
     def save(self,*args,**kwargs):
         self.slag = slugify (f'{self.titulli}')

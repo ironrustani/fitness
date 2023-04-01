@@ -1,0 +1,20 @@
+{% load static %}
+
+
+
+    
+		<div class="col-md-4">
+			<div class="p-lg-5 p-4 shadow">
+				<div class="lc-block mb-4"><img alt="" class="img-fluid" src="{{blog.imazhi.url}}" style="height:10vh">
+
+
+					<h4 class="my-3" editable="inline"></h4>
+					<p editable="inline"><strong>-{{blog.titulli}}-</strong></p>
+
+
+					<a class="btn btn-outline-primary" href="{% url 'blog' blog.slug %}" role="button">Lexo me shume rreth<br><strong>-{{blog.titulli}}-</strong></a>
+				</div><!-- /lc-block -->
+			</div>
+		</div><!-- /col -->
+		
+    
